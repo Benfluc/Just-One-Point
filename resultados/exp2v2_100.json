@@ -1,0 +1,674 @@
+{
+ "N": 100,
+ "seed": 1100,
+ "M": 2000,
+ "B_calib": 20000,
+ "res": {
+  "0.25": {
+   "nom": {
+    "base": {
+     "KS": 0.2215,
+     "Lilliefors": 0.506,
+     "SW": 0.131,
+     "R": 0.4305,
+     "T": 0.423
+    },
+    "depois": {
+     "moda": {
+      "KS": 0.233,
+      "Lilliefors": 0.591,
+      "SW": 0.153,
+      "R": 0.497,
+      "T": 0.4715
+     },
+     "perto": {
+      "KS": 0.2325,
+      "Lilliefors": 0.5865,
+      "SW": 0.1525,
+      "R": 0.491,
+      "T": 0.4705
+     },
+     "nova": {
+      "KS": 0.1935,
+      "Lilliefors": 0.506,
+      "SW": 0.1315,
+      "R": 0.429,
+      "T": 0.41
+     }
+    },
+    "cond": {
+     "KS": {
+      "nr": 1557,
+      "moda": 34,
+      "perto": 33,
+      "nova": 11
+     },
+     "Lilliefors": {
+      "nr": 988,
+      "moda": 172,
+      "perto": 163,
+      "nova": 69
+     },
+     "SW": {
+      "nr": 1738,
+      "moda": 46,
+      "perto": 45,
+      "nova": 27
+     },
+     "R": {
+      "nr": 1139,
+      "moda": 154,
+      "perto": 142,
+      "nova": 72
+     },
+     "T": {
+      "nr": 1154,
+      "moda": 167,
+      "perto": 166,
+      "nova": 96
+     }
+    },
+    "comum": {
+     "nr": 473,
+     "KS": {
+      "moda": 7,
+      "perto": 7,
+      "nova": 0
+     },
+     "Lilliefors": {
+      "moda": 57,
+      "perto": 54,
+      "nova": 17
+     },
+     "SW": {
+      "moda": 2,
+      "perto": 2,
+      "nova": 1
+     },
+     "R": {
+      "moda": 44,
+      "perto": 40,
+      "nova": 21
+     },
+     "T": {
+      "moda": 38,
+      "perto": 38,
+      "nova": 29
+     }
+    },
+    "T_moda_mediana": {
+     "True": {
+      "nr": 320,
+      "moda": 57
+     },
+     "False": {
+      "nr": 834,
+      "moda": 110
+     }
+    }
+   },
+   "cal": {
+    "base": {
+     "KS": 0.0585,
+     "Lilliefors": 0.06,
+     "SW": 0.049,
+     "R": 0.047,
+     "T": 0.0545
+    },
+    "depois": {
+     "moda": {
+      "KS": 0.0705,
+      "Lilliefors": 0.0755,
+      "SW": 0.0605,
+      "R": 0.0615,
+      "T": 0.067
+     },
+     "perto": {
+      "KS": 0.0705,
+      "Lilliefors": 0.0755,
+      "SW": 0.0605,
+      "R": 0.0565,
+      "T": 0.067
+     },
+     "nova": {
+      "KS": 0.057,
+      "Lilliefors": 0.055,
+      "SW": 0.0455,
+      "R": 0.0445,
+      "T": 0.0435
+     }
+    },
+    "cond": {
+     "KS": {
+      "nr": 1883,
+      "moda": 25,
+      "perto": 25,
+      "nova": 12
+     },
+     "Lilliefors": {
+      "nr": 1880,
+      "moda": 31,
+      "perto": 31,
+      "nova": 7
+     },
+     "SW": {
+      "nr": 1902,
+      "moda": 23,
+      "perto": 23,
+      "nova": 4
+     },
+     "R": {
+      "nr": 1906,
+      "moda": 32,
+      "perto": 23,
+      "nova": 12
+     },
+     "T": {
+      "nr": 1891,
+      "moda": 31,
+      "perto": 31,
+      "nova": 13
+     }
+    },
+    "comum": {
+     "nr": 1619,
+     "KS": {
+      "moda": 17,
+      "perto": 17,
+      "nova": 9
+     },
+     "Lilliefors": {
+      "moda": 21,
+      "perto": 21,
+      "nova": 5
+     },
+     "SW": {
+      "moda": 11,
+      "perto": 11,
+      "nova": 1
+     },
+     "R": {
+      "moda": 24,
+      "perto": 18,
+      "nova": 9
+     },
+     "T": {
+      "moda": 20,
+      "perto": 20,
+      "nova": 5
+     }
+    },
+    "T_moda_mediana": {
+     "True": {
+      "nr": 603,
+      "moda": 19
+     },
+     "False": {
+      "nr": 1288,
+      "moda": 12
+     }
+    }
+   },
+   "crit_cal": {
+    "n": {
+     "KS": 0.16603072398334157,
+     "Lilliefors": 0.12098242478765495,
+     "R": 0.12784040673092992,
+     "T": 0.15044319440641563,
+     "SW": 0.9689594024587306
+    },
+    "N": {
+     "KS": 0.1614624612740131,
+     "Lilliefors": 0.1202500020498921,
+     "R": 0.12745317444138743,
+     "T": 0.14718286476021114,
+     "SW": 0.9690269050710224
+    }
+   }
+  },
+  "0.5": {
+   "nom": {
+    "base": {
+     "KS": 0.7265,
+     "Lilliefors": 0.999,
+     "SW": 0.892,
+     "R": 0.9935,
+     "T": 0.9745
+    },
+    "depois": {
+     "moda": {
+      "KS": 0.7115,
+      "Lilliefors": 1.0,
+      "SW": 0.909,
+      "R": 0.997,
+      "T": 0.9905
+     },
+     "perto": {
+      "KS": 0.7115,
+      "Lilliefors": 0.9995,
+      "SW": 0.9085,
+      "R": 0.9975,
+      "T": 0.9895
+     },
+     "nova": {
+      "KS": 0.6525,
+      "Lilliefors": 0.999,
+      "SW": 0.8785,
+      "R": 0.9905,
+      "T": 0.9755
+     }
+    },
+    "cond": {
+     "KS": {
+      "nr": 547,
+      "moda": 1,
+      "perto": 1,
+      "nova": 4
+     },
+     "Lilliefors": {
+      "nr": 2,
+      "moda": 2,
+      "perto": 1,
+      "nova": 0
+     },
+     "SW": {
+      "nr": 216,
+      "moda": 35,
+      "perto": 35,
+      "nova": 7
+     },
+     "R": {
+      "nr": 13,
+      "moda": 8,
+      "perto": 9,
+      "nova": 2
+     },
+     "T": {
+      "nr": 51,
+      "moda": 36,
+      "perto": 34,
+      "nova": 21
+     }
+    },
+    "comum": {
+     "nr": 0,
+     "KS": {
+      "moda": 0,
+      "perto": 0,
+      "nova": 0
+     },
+     "Lilliefors": {
+      "moda": 0,
+      "perto": 0,
+      "nova": 0
+     },
+     "SW": {
+      "moda": 0,
+      "perto": 0,
+      "nova": 0
+     },
+     "R": {
+      "moda": 0,
+      "perto": 0,
+      "nova": 0
+     },
+     "T": {
+      "moda": 0,
+      "perto": 0,
+      "nova": 0
+     }
+    },
+    "T_moda_mediana": {
+     "True": {
+      "nr": 37,
+      "moda": 27
+     },
+     "False": {
+      "nr": 14,
+      "moda": 9
+     }
+    }
+   },
+   "cal": {
+    "base": {
+     "KS": 0.035,
+     "Lilliefors": 0.0505,
+     "SW": 0.0555,
+     "R": 0.0535,
+     "T": 0.036
+    },
+    "depois": {
+     "moda": {
+      "KS": 0.041,
+      "Lilliefors": 0.0685,
+      "SW": 0.064,
+      "R": 0.0685,
+      "T": 0.0435
+     },
+     "perto": {
+      "KS": 0.041,
+      "Lilliefors": 0.0635,
+      "SW": 0.064,
+      "R": 0.0605,
+      "T": 0.0435
+     },
+     "nova": {
+      "KS": 0.034,
+      "Lilliefors": 0.0455,
+      "SW": 0.051,
+      "R": 0.0455,
+      "T": 0.0285
+     }
+    },
+    "cond": {
+     "KS": {
+      "nr": 1930,
+      "moda": 12,
+      "perto": 12,
+      "nova": 8
+     },
+     "Lilliefors": {
+      "nr": 1899,
+      "moda": 36,
+      "perto": 26,
+      "nova": 7
+     },
+     "SW": {
+      "nr": 1889,
+      "moda": 17,
+      "perto": 17,
+      "nova": 5
+     },
+     "R": {
+      "nr": 1893,
+      "moda": 32,
+      "perto": 21,
+      "nova": 5
+     },
+     "T": {
+      "nr": 1928,
+      "moda": 29,
+      "perto": 29,
+      "nova": 12
+     }
+    },
+    "comum": {
+     "nr": 1679,
+     "KS": {
+      "moda": 9,
+      "perto": 9,
+      "nova": 6
+     },
+     "Lilliefors": {
+      "moda": 28,
+      "perto": 20,
+      "nova": 4
+     },
+     "SW": {
+      "moda": 6,
+      "perto": 6,
+      "nova": 3
+     },
+     "R": {
+      "moda": 23,
+      "perto": 15,
+      "nova": 4
+     },
+     "T": {
+      "moda": 9,
+      "perto": 9,
+      "nova": 2
+     }
+    },
+    "T_moda_mediana": {
+     "True": {
+      "nr": 942,
+      "moda": 23
+     },
+     "False": {
+      "nr": 986,
+      "moda": 6
+     }
+    }
+   },
+   "crit_cal": {
+    "n": {
+     "KS": 0.20661397642552826,
+     "Lilliefors": 0.1620290905232946,
+     "R": 0.17179307773055838,
+     "T": 0.20707070707070707,
+     "SW": 0.9521175903207844
+    },
+    "N": {
+     "KS": 0.20146246127401313,
+     "Lilliefors": 0.16160761718719302,
+     "R": 0.17178826808733907,
+     "T": 0.20682002080517858,
+     "SW": 0.9521948695589989
+    }
+   }
+  },
+  "1.0": {
+   "nom": {
+    "base": {
+     "KS": 1.0,
+     "Lilliefors": 1.0,
+     "SW": 1.0,
+     "R": 1.0,
+     "T": 1.0
+    },
+    "depois": {
+     "moda": {
+      "KS": 1.0,
+      "Lilliefors": 1.0,
+      "SW": 1.0,
+      "R": 1.0,
+      "T": 1.0
+     },
+     "perto": {
+      "KS": 1.0,
+      "Lilliefors": 1.0,
+      "SW": 1.0,
+      "R": 1.0,
+      "T": 1.0
+     },
+     "nova": {
+      "KS": 1.0,
+      "Lilliefors": 1.0,
+      "SW": 1.0,
+      "R": 1.0,
+      "T": 1.0
+     }
+    },
+    "cond": {
+     "KS": {
+      "nr": 0,
+      "moda": 0,
+      "perto": 0,
+      "nova": 0
+     },
+     "Lilliefors": {
+      "nr": 0,
+      "moda": 0,
+      "perto": 0,
+      "nova": 0
+     },
+     "SW": {
+      "nr": 0,
+      "moda": 0,
+      "perto": 0,
+      "nova": 0
+     },
+     "R": {
+      "nr": 0,
+      "moda": 0,
+      "perto": 0,
+      "nova": 0
+     },
+     "T": {
+      "nr": 0,
+      "moda": 0,
+      "perto": 0,
+      "nova": 0
+     }
+    },
+    "comum": {
+     "nr": 0,
+     "KS": {
+      "moda": 0,
+      "perto": 0,
+      "nova": 0
+     },
+     "Lilliefors": {
+      "moda": 0,
+      "perto": 0,
+      "nova": 0
+     },
+     "SW": {
+      "moda": 0,
+      "perto": 0,
+      "nova": 0
+     },
+     "R": {
+      "moda": 0,
+      "perto": 0,
+      "nova": 0
+     },
+     "T": {
+      "moda": 0,
+      "perto": 0,
+      "nova": 0
+     }
+    },
+    "T_moda_mediana": {
+     "True": {
+      "nr": 0,
+      "moda": 0
+     },
+     "False": {
+      "nr": 0,
+      "moda": 0
+     }
+    }
+   },
+   "cal": {
+    "base": {
+     "KS": 0.0525,
+     "Lilliefors": 0.049,
+     "SW": 0.045,
+     "R": 0.0515,
+     "T": 0.045
+    },
+    "depois": {
+     "moda": {
+      "KS": 0.0555,
+      "Lilliefors": 0.061,
+      "SW": 0.047,
+      "R": 0.064,
+      "T": 0.038
+     },
+     "perto": {
+      "KS": 0.0545,
+      "Lilliefors": 0.0535,
+      "SW": 0.047,
+      "R": 0.0535,
+      "T": 0.038
+     },
+     "nova": {
+      "KS": 0.042,
+      "Lilliefors": 0.043,
+      "SW": 0.0375,
+      "R": 0.05,
+      "T": 0.0285
+     }
+    },
+    "cond": {
+     "KS": {
+      "nr": 1895,
+      "moda": 6,
+      "perto": 4,
+      "nova": 1
+     },
+     "Lilliefors": {
+      "nr": 1902,
+      "moda": 24,
+      "perto": 11,
+      "nova": 3
+     },
+     "SW": {
+      "nr": 1910,
+      "moda": 5,
+      "perto": 5,
+      "nova": 0
+     },
+     "R": {
+      "nr": 1897,
+      "moda": 25,
+      "perto": 12,
+      "nova": 9
+     },
+     "T": {
+      "nr": 1910,
+      "moda": 0,
+      "perto": 0,
+      "nova": 0
+     }
+    },
+    "comum": {
+     "nr": 1679,
+     "KS": {
+      "moda": 6,
+      "perto": 4,
+      "nova": 1
+     },
+     "Lilliefors": {
+      "moda": 12,
+      "perto": 4,
+      "nova": 3
+     },
+     "SW": {
+      "moda": 1,
+      "perto": 1,
+      "nova": 0
+     },
+     "R": {
+      "moda": 19,
+      "perto": 8,
+      "nova": 7
+     },
+     "T": {
+      "moda": 0,
+      "perto": 0,
+      "nova": 0
+     }
+    },
+    "T_moda_mediana": {
+     "True": {
+      "nr": 1817,
+      "moda": 0
+     },
+     "False": {
+      "nr": 93,
+      "moda": 0
+     }
+    }
+   },
+   "crit_cal": {
+    "n": {
+     "KS": 0.2777777777777778,
+     "Lilliefors": 0.24618728046818586,
+     "R": 0.26543306145653894,
+     "T": 0.297979797979798,
+     "SW": 0.8863212740347702
+    },
+    "N": {
+     "KS": 0.28,
+     "Lilliefors": 0.24597709821488872,
+     "R": 0.2650379808318013,
+     "T": 0.3041498470730739,
+     "SW": 0.8860695306341955
+    }
+   }
+  }
+ }
+}
